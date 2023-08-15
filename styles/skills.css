@@ -41,8 +41,7 @@ section.skills {
   
   li.skills__item {
       width: 12rem;
-      text-align: center;
-      
+      text-align: center;   
   }
   
   img.skills__item__image {
@@ -80,7 +79,7 @@ section.skills {
           width: 25rem;
       }
   }
-  
+
   @media screen and (max-width: 380px){
       section.skills {
           width: 94%;
