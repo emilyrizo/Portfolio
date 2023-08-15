@@ -1,0 +1,39 @@
+@import url(../styles/header.css);
+@import url(../styles/banner.css);
+@import url(../styles/about.css);
+@import url(../styles/skills.css);
+@import url(../styles/hobbies.css);
+@import url(../styles/formacao.css);
+@import url(../styles/projects.css);
+@import url(../styles/contact.css);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 1;
+  box-sizing: border-box;
+  background-color: rgb(242, 242, 242, .8);
+  font-family: '946 Latin Regular 2';
+}

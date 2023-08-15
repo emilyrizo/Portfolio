@@ -1,0 +1,134 @@
+ul.nav-list {
+    font-family: 'Windows Regular';
+    color: black;
+    text-shadow: 0.05rem 0.05rem 0.05rem #9c9c9c;
+    gap: 5rem;
+    padding: 2.2rem 0 2rem 3rem;
+    display: flex;
+    top: 0;
+    width: 100%;
+  }
+  
+  .header {
+    background-image: linear-gradient(270deg, rgba(242, 47, 176, .4) -30%, rgba(255, 248, 111, 0.4) 100%);
+    box-shadow: 0 0.2rem .07rem .05rem #9c9c9c;
+    padding-inline: 1.6rem;
+  }
+  
+  .nav {
+    max-width: 1290px;
+    height: 5rem;
+    margin-inline: auto;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-list {
+    display: flex;
+    gap: 3.2rem;
+    list-style: none;
+  }
+  
+  .nav-list a {
+    font-size: 2.2rem;
+    color: #000;
+    padding-block: 1.6rem;
+  }
+  
+  .hamburger {
+    margin-left: 2rem;
+    display: none;
+    border: none;
+    background: none;
+    border-top: .319rem solid #757575;
+    cursor: pointer;
+  }
+  
+  .hamburger::after,
+  .hamburger::before {
+    content: " ";
+    display: block;
+    width: 3rem;
+    height: .2rem;
+    background: #757575;
+    margin-top: .5rem;
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block;
+      z-index: 1;
+    }
+  
+    .nav-list {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 65vh;
+      background-image: linear-gradient(270deg, rgb(246, 161, 217) -30%, rgb(247, 245, 203) 100%);
+      clip-path: circle(100px at -3% -40%);
+      transition: .8s ease-out;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      pointer-events: none;
+    }
+  
+    li.li__about {
+      padding-top: 1.6rem;
+    }
+  
+    .nav-list a {
+      opacity: 0;
+    }
+  
+    .nav-list li:nth-child(1) a {
+      transition: 0.3s 0.25s;
+    }
+  
+    .nav-list li:nth-child(2) a {
+      transition: 0.3s 0.35s;
+    }
+  
+    .nav-list li:nth-child(3) a {
+      transition: 0.3s 0.45s;
+    }
+  
+    .nav-list li:nth-child(4) a {
+      transition: 0.3s 0.55s;
+    }
+  
+    .nav-list li:nth-child(5) a {
+      transition: 0.3s 0.65s;
+    }
+  
+    .nav.active .nav-list {
+      clip-path: circle(1000px at -3% -25%);
+      pointer-events: all;
+    }
+  
+    .nav.active .nav-list a {
+      opacity: 1;
+    }
+  
+    .nav.active .hamburger {
+      position: fixed;
+      top: 1.8rem;
+      left: 1.6rem;
+      border-top-color: transparent;
+    }
+  
+    .nav.active .hamburger::before {
+      transform: rotate(135deg);
+    }
+  
+    .nav.active .hamburger::after {
+      transform: rotate(-135deg);
+      top: -7px;
+    }
+  }

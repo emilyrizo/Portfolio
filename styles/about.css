@@ -1,0 +1,29 @@
+div.about__container {
+    background-image: linear-gradient(270deg, rgba(185, 138, 255, .18) -10%, rgba(156, 193, 255, .18) 100%);
+    padding: 5rem 4rem;
+    width: 80%;
+    margin: 4rem auto 8rem;
+    border-radius: 5px;
+    box-shadow: .3rem 0.3rem .5rem .08rem #9c9c9c;
+  }
+  
+  h2.about__title {
+    font-size: 2.5rem;
+    letter-spacing: .09rem;
+    margin-bottom: 3.5rem;
+  }
+  
+  p.about__text {
+    text-align: justify;
+    font-size: 2rem;
+    letter-spacing: .08rem;
+    line-height: 2.4rem;
+    margin-top: 1.5rem;
+  }
+  
+  @media screen and (max-width: 376px){
+      div.about__container {
+          width: 94%;
+          padding: 4rem 3rem;
+      }
+  }

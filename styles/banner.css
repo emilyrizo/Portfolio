@@ -1,0 +1,143 @@
+section.banner {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: 4.5rem auto 0;
+    align-items: center;
+  }
+  
+  div.banner__container {
+    width: 70%;
+    margin: auto 0;
+  }
+  
+  h1.banner__title {
+    width: 100%;
+    font-size: 3.2rem;
+    line-height: 130%;
+    letter-spacing: .1rem;
+  }
+  
+  ul.banner__list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3rem 0;
+  }
+  
+  li.banner__list__item {
+    padding-top: .6rem;
+    padding-right: 3rem;
+    font-size: 1.9rem;
+    letter-spacing: .08rem;
+    text-shadow: 0.05rem 0.05rem 0.05rem #9c9c9c;
+  }
+  
+  img.banner__list__image{
+    width: 1.7rem;
+    margin-right: .7rem;
+  }
+  
+  li.banner__list__item:hover {
+    transform: scale(1.1);
+    transition: all 0.15s;
+  }
+  
+  div.banner__container__image {
+    display: flex;
+    justify-content: end;
+    width: 30%;
+  }
+  
+  img.foto_perfil {
+    width: 100%;
+    /* min-width: 30.8rem; */
+  }
+  
+  @media screen and (max-width: 1020px) {
+  
+      section.banner {
+          width: 80%;
+      }
+  
+      ul.banner__list {
+          min-width: 35.7rem;    
+      }
+  
+      h1.banner__title {
+      font-size: 2.8rem;
+      }
+  
+      img.foto_perfil {
+      min-width: 25rem;
+      }  
+  }
+
+  
+@media screen and (max-width: 768px) {
+    section.banner {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    div.banner__container {
+        width: 60%;
+        margin: 0 auto;
+        min-width: 28.8rem;
+        padding-left: 2rem
+    }
+
+    h1.banner__title {
+        min-width: 28.7rem;
+    }
+
+    div.banner__container__image {
+        width: 50%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 650px){
+    div.banner__container {
+        padding-left: 0;
+    }
+
+    ul.banner__list {
+        margin-left: -1.2rem;
+    }
+}
+
+
+@media screen and (max-width: 470px){
+    section.banner {
+        width: 100%;
+    }
+
+    div.banner__container {
+        min-width: 26rem;
+        padding-left: 0;
+    }
+
+    h1.banner__title {
+        min-width: 26rem;
+    }
+
+    ul.banner__list {
+        display: inline;
+        font-size: 1.5rem;
+    }
+
+    img.foto_perfil {
+        margin-top: 2.3rem;
+    } 
+
+    h1.banner__title {
+        width: 100%;
+        justify-content: center;
+        font-size: 2.5rem;
+      }
+}
+
+@media screen and (max-width: 360px){
+
+}
