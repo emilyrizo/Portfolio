@@ -21,7 +21,7 @@ div.about__container {
     margin-top: 1.5rem;
   }
   
-  @media screen and (max-width: 376px){
+  @media screen and (max-width: 426px){
       div.about__container {
           width: 94%;
           padding: 4rem 3rem;

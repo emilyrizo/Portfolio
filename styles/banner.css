@@ -135,9 +135,5 @@ section.banner {
         width: 100%;
         justify-content: center;
         font-size: 2.5rem;
-      }
-}
-
-@media screen and (max-width: 360px){
-
+    }
 }

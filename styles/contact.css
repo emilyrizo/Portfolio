@@ -183,9 +183,7 @@ section.contact {
       img.contact_title_img {
           width: 25rem;
       }
-  }
-  
-  @media screen and (max-width: 380px){
+ 
       section.contact {
           width: 94%;
       }    
@@ -197,6 +195,5 @@ section.contact {
     font-weight: 500;
     text-align: center;
     padding-bottom: 1rem;
-    
     margin-bottom: 1rem;
   }
