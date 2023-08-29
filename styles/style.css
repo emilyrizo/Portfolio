@@ -12,7 +12,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: '946 Latin Regular 2', sans-serif;
 }
 
 :root {
@@ -29,6 +28,7 @@ a {
 }
 
 body {
+  font-family: '946 Latin Regular 2', sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

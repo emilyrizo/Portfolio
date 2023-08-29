@@ -121,15 +121,16 @@ section.contact {
   }
   
   button.contact__form__button {
-    font-family: '946 Latin Regular 2', sans-serif;
+    font-family: 'Handjet', sans-serif;
+    font-weight: 600;
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     text-shadow: 0.03rem 0.03rem 0.03rem #9c9c9c;
-    letter-spacing: .03rem;
+    letter-spacing: .065rem;
     width: 14rem;
-    padding: .25rem 1.2rem .55rem;
+    padding: 0.8rem 0 1rem;
     border-top: .2rem solid black;
     border-left: .2rem solid black;
     border-bottom: .1rem solid black;
