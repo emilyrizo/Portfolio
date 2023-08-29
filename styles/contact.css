@@ -47,7 +47,6 @@ section.contact {
   }
   
   p.contact__content__email {
-    font-family: '946 Latin Regular 2';
     font-size: 2rem;
     font-weight: bold;
   }
@@ -86,7 +85,7 @@ section.contact {
   
   div.input_single label,
   .input_single_text label {
-    font-family: 'Windows Regular';
+    font-family: '946 Latin Regular 2', sans-serif;
     text-shadow: 0.037rem 0.037rem 0.03rem #9c9c9c;
     position: absolute;
     left: .5rem;
@@ -104,7 +103,7 @@ section.contact {
     margin: 0 auto;
     padding: 1rem 0 0 0.5rem;
     font-size: 2rem;
-    font-family: '946 Latin Regular 2';
+    font-family: '946 Latin Regular 2', sans-serif;
     border: none;
     border-bottom: .2rem solid #a5a3a3;
     outline: 0;
@@ -122,7 +121,7 @@ section.contact {
   }
   
   button.contact__form__button {
-    font-family: 'Windows Regular';
+    font-family: '946 Latin Regular 2', sans-serif;
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -190,7 +189,6 @@ section.contact {
   }
 
   p.footer__text{
-    font-family: '946 Latin Regular 2';
     font-size:  1.5rem;
     font-weight: 500;
     text-align: center;

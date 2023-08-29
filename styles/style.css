@@ -12,6 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: '946 Latin Regular 2', sans-serif;
 }
 
 :root {
@@ -35,5 +36,4 @@ body {
   z-index: 1;
   box-sizing: border-box;
   background-color: rgb(242, 242, 242, .8);
-  font-family: '946 Latin Regular 2';
 }
